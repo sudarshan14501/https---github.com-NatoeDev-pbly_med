@@ -1,0 +1,12 @@
+appId: "ai.pbly.pbly_med"
+productName: "NATOE.AI"
+copyright: "Copyright (c) 2024 NATOE AI"
+win:
+  target: 'appx'
+  icon: "resources/icon.ico"
+linux:
+  target: ["dir", "appimage", "zip"]
+  icon: "resources/icon.png"
+mac:
+  target: ["dir", "dmg", "zip"]
+  icon: "resources/icon.icns"
